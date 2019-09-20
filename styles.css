@@ -11,10 +11,13 @@
 .navbar-brand {
   float: left;
   min-height: 55px;
-  padding: 0 15px 5 px;
+  padding: 0 15px 5px;
 }
 
 .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover {
   color: white;
   background-color: #5E4485;
+}
+.nav-bar-inverse .navbar-nav li a {
+
 }
