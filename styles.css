@@ -63,17 +63,24 @@ footer {
   color: #D5D5D5;
   text-decoration: none;
 }
-@media (max-width:900px) { .fa{ font-size: 20px; padding: 10px;}
-@media (max-width:600px) {
-  .carousel-caption {
-    display: none;
+
+@media (max-width:900px) {
+  .fa {
+    font-size: 20px;
+    padding: 10px;
   }
 
-  #icon {
-    max-width: 150px;
-  }
+  @media (max-width:600px) {
+    .carousel-caption {
+      display: none;
+    }
 
-  h4 {
-    font-size: 1.7em
+    #icon {
+      max-width: 150px;
+    }
+
+    h4 {
+      font-size: 1.7em
+    }
   }
-}
+  .bird3 {object-fit: cover;}
